@@ -1,0 +1,29 @@
+
+body{
+  margin: 0px;
+}
+
+#root {
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.news-container{
+
+  border: 2px solid black;
+  margin: 10px 0px;
+  width: 50%;
+cursor: pointer;
+}
+
+img{
+  width: 67%;
+  margin-top: 28px;
+}

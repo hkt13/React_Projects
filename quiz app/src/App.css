@@ -1,0 +1,99 @@
+body{
+  background: aliceblue;
+}
+
+.App{
+
+  display: flex;
+  text-transform: capitalize;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1,h2,h3,h4{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+color: rebeccapurple;
+font-weight: 600;
+}
+
+.menu{
+  min-width: 50%;
+  background: linear-gradient(to left, lightgreen, lightblue);
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+input{
+  height: 20px;
+  width: 40%;
+  padding: 7px;
+  font-size: 18px;
+  outline: none;
+  background-color: rgb(255,255,255,.4);
+  border-color: rgb(255,255,255,.4);
+   margin-bottom: 10px;
+   border-radius: 4px;
+}
+
+
+#btn, .nxt, .start{
+  height: 45px;
+  font-size: 18px;
+  width: 42%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color:white;
+color: rebeccapurple;
+border-radius: 4px;
+margin: 5px 0px;
+border: none;
+
+}
+
+
+button:hover{
+  cursor: pointer;
+}
+
+.nxt{
+  width: 20%;
+  margin-bottom: 10px;
+}
+
+.start{
+  height: 35px;
+  width: 20%;
+}
+
+#btn:focus{
+ background: aliceblue;
+ border: 2px solid rgb(105, 156, 156);
+}
+
+.quiz{
+  min-width: 50%;
+  background: linear-gradient(to left, lightgreen, lightblue);
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.active{
+  color: red;
+}
+
+.end{
+  min-width: 50%;
+  background: linear-gradient(to left, lightgreen, lightblue);
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}

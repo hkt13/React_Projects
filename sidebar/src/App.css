@@ -1,0 +1,84 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: aliceblue;
+}
+
+.sidebar{
+  position: relative;
+}
+
+.info{
+  height: 100vh;
+    width: 40vw;
+    padding: 2rem;
+    background: white;
+    position: relative;
+    /* display: none; */
+    transition: all 0.5s linear;
+  transform: translate(-100%);
+}
+.show{
+  /* display: block; */
+  transform: translate(0);
+  /* transition: all 2s ease-in; */
+}
+
+.title{
+  font-size: 30px;
+    font-family: cursive;
+    font-weight: 600;
+    color: #cd1818;
+}
+.cross{
+  position: absolute;
+    right: 26px;
+    top: 43px;
+    font-size: 24px;
+    color: crimson;
+    font-weight: 900;
+}
+
+.cross:hover{
+  cursor: pointer;
+  color: cornflowerblue;
+}
+
+.list{
+  margin-top: 1.5rem;
+}
+
+.list li{
+  list-style: none;
+  font-family: system-ui;
+  font-size: 21px;
+  margin-top: 0.8rem;
+  /* background-color: blueviolet; */
+  padding: 10px;
+  border-radius: 10px;
+  transition: all 0.3s linear;
+}
+
+.list li:hover{
+  padding-left: 25px;
+  background-color: blueviolet;
+  color: white;
+  cursor: pointer;
+}
+
+.bar{
+  top: 10px;
+    position: absolute;
+    right: 10px;
+    font-size: 26px;
+    color: brown;
+}
+
+.bar:hover{
+  color: cornflowerblue;
+  cursor: pointer;
+}
